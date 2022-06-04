@@ -1,7 +1,8 @@
-# name:
+# Name:
 **Ruslan Mamedau**
 # Contackts
 **velikhan5747360@gmail.com**
+=====
 **https://vk.com/mamedych**
 # Hobby
 **Cinema, automobiles, technology, Warhammer 40000**
