@@ -1,6 +1,6 @@
 # Name:
 **Ruslan Mamedau**
-# Contackts
+# Contacts
 **velikhan5747360@gmail.com**
 =====
 **https://vk.com/mamedych**
