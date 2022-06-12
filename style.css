@@ -11,7 +11,7 @@ header {
     border: 2px solid rgb(0, 0, 0);
     margin: 1px;
     width: 99%;
-    background-color: bisque;
+    background-color: rgb(255, 241, 224);
 }
 main {
     border: 2px solid rgb(0, 0, 0);
@@ -22,7 +22,7 @@ main {
     justify-content: center;
     align-items:stretch;
     width: 99%;
-    background-color: rgb(240, 239, 229);
+    background-color: #fcf0e3;
 }
 footer {
     display: flex;
@@ -96,7 +96,7 @@ h2 {
     font-style: italic;
     border-bottom: 1px solid rgb(0, 0, 0);
     margin: 0px;
-    background-color: rgb(255, 228, 196);
+    background-color: rgb(255, 241, 224);
     width: auto;
     padding-left: 15px;
     padding-top: 0px;
