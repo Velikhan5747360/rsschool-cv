@@ -1,28 +1,28 @@
-body
-{
+body {
     display: contents;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 nav {
     display: block;
 }
-header
-{
+
+header {
     border: 2px solid rgb(0, 0, 0);
     margin: 1px;
     width: 99%;
 }
-main
-{
-    border: 2px solid rgb(255, 0, 0);
+
+main {
+    border: 2px solid rgb(0, 0, 0);
     border-bottom: 0px;
     border-top: 2px solid black;
     display: block;
     flex-direction: column;
     width: 99%;
 }
-footer
-{
+
+footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -31,13 +31,13 @@ footer
     border-top: 0px;
     width: 99%;
 }
-h2
-{
+
+h2 {
     font-size: 25px;
     padding: 0px 0px 1px 15px;
 }
-.navsection
-{
+
+.navsection {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -52,14 +52,14 @@ h2
     width: 99%;
     z-index: 4;
 }
-.navblock
-{
+
+.navblock {
     border: 4px inset rgba(131, 183, 243, 0.753);
     padding: 5px 30px;
     background-color: rgba(255, 248, 248, 0.801);
 }
-.aboutmecontainer
-{
+
+.aboutmecontainer {
     display: flex;
     align-items: flex-end;
     border: 0px solid rgb(0, 0, 0);
@@ -67,24 +67,24 @@ h2
     border-left: 0px;
     border-right: 0px;
 }
-.nameblock
-{
+
+.nameblock {
     font-size: 40px;
     padding: 15px;
     border-bottom: 1px solid black;
     margin: 0%;
 }
-   .aboutme
-   {
+
+.aboutme {
     text-align: left;
     font-size: 20px;
     padding-left: 0px;
     padding-right: 10px;
-    float:right;
+    float: right;
     width: auto;
-   }
-   .aboutmetext
-   {
+}
+
+.aboutmetext {
     font-size: 20px;
     font-family: Arial, sans-serif;
     font-style: italic;
@@ -95,31 +95,32 @@ h2
     padding-left: 15px;
     padding-top: 0px;
     padding-bottom: 10px;
-   }
-   .contactblock
-   {
+}
+
+.contactblock {
     font-size: 18px;
     border: 0px solid rgb(0, 0, 0);
     padding-top: 100px;
-   }
-   .educationblock,
-   .languagesblock,
-   .skillsblock
-   {
+    padding-left: 15px;
+}
+
+.educationblock,
+.languagesblock,
+.skillsblock {
     border-bottom: 2px solid rgb(0, 0, 0);
     padding-left: 40px;
     padding-bottom: 20px;
     padding-top: 0%;
-   }
-   .codeexampleblock
-   {
+}
+
+.codeexampleblock {
     border-bottom: 2px solid rgb(0, 0, 0);
     padding-left: 40px;
     padding-bottom: 20px;
     padding-right: 20px;
-   }
+}
 
-   .blockname {
+.blockname {
     position: relative;
     margin: 0;
     margin-bottom: 36px;
@@ -127,8 +128,9 @@ h2
     font-size: 25px;
     line-height: 30px;
     font-weight: 600;
-  }
-  .blockname::before {
+}
+
+.blockname::before {
     position: absolute;
     content: "";
     left: 0;
@@ -136,25 +138,30 @@ h2
     width: 30px;
     height: 40px;
     background-color: #6900f2;
-  }
-  .hide {
+}
+
+.hide {
     display: none;
 }
-.hide + label ~ div{
+
+.hide+label~div {
     display: none;
 }
-.hide + label {
+
+.hide+label {
     border-bottom: 1px dotted green;
     padding: 0;
     color: green;
     cursor: pointer;
     display: inline-block;
 }
-.hide:checked + label {
+
+.hide:checked+label {
     color: red;
     border-bottom: 0;
 }
-.hide:checked + label + div {
+
+.hide:checked+label+div {
     display: block;
     background: #efefef;
     -moz-box-shadow: inset 3px 3px 10px #7d8e8f;
