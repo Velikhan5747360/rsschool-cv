@@ -21,7 +21,6 @@ main {
     flex-direction: column;
     width: 99%;
 }
-
 footer {
     display: flex;
     justify-content: space-around;
